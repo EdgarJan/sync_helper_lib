@@ -732,23 +732,25 @@ dependencies:
   flutter: sdk
 
   # Database
-  sqlite_async: 0.12.1            # Async SQLite wrapper
-  path_provider: 2.1.5            # Platform-specific paths
+  sqlite_async: 0.14.8            # Async SQLite wrapper
+  sqlite3: 3.9.1                  # ResultSet/Row types; bundles SQLite via build hooks
+  path_provider: 2.1.6            # Platform-specific paths
+  path: 1.9.1                     # Path joining
 
   # Networking
-  http: 1.5.0                     # HTTP client
+  http: 1.6.0                     # HTTP client
 
   # Authentication (peer dependency)
-  firebase_auth: 6.1.0            # Firebase auth
+  firebase_auth: 7.1.0            # Firebase auth
 
   # Utilities
-  uuid: 4.5.1                     # UUID generation
-  package_info_plus: 9.0.0        # App metadata
+  uuid: 4.6.0                     # UUID generation
+  package_info_plus: 10.2.2       # App metadata
   collection: 1.19.1              # Collection utilities
 
   # Monitoring
-  sentry_flutter: 9.6.0           # Error tracking
-  device_info_plus: 12.1.0        # Device metadata
+  sentry_flutter: 10.5.0          # Error tracking
+  device_info_plus: 13.3.0        # Device metadata
 ```
 
 ---

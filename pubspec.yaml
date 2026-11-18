@@ -2,30 +2,30 @@ name: sync_helper_flutter
 version: 1.9.4
 environment:
   # Exact pins: the latest stable Flutter and the Dart SDK it ships with.
-  sdk: 3.13.4
-  flutter: 3.47.5
+  sdk: 3.14.0
+  flutter: 3.50.0
 dependencies:
   flutter:
     sdk: flutter
   http: 1.6.0
-  sqlite_async: 0.14.5
-  sqlite3: 3.6.0
+  sqlite_async: 0.14.8
+  sqlite3: 3.9.1
   path_provider: 2.1.6
   path: 1.9.1
   collection: 1.19.1
   uuid: 4.6.0
-  package_info_plus: 10.2.1
+  package_info_plus: 10.2.2
   # Sentry for error monitoring & logging – SDK will be initialized by the
   # application that depends on this library. We only use the APIs.
-  sentry_flutter: 9.30.0
-  device_info_plus: 13.2.0
+  sentry_flutter: 10.5.0
+  device_info_plus: 13.3.0
   # Optional Firebase Auth support
-  firebase_auth: 6.7.0
+  firebase_auth: 7.1.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: 6.0.0
-  test: 1.31.1
+  test: 1.32.0
 executables:
   sync_generator:
   mock_sync_server:

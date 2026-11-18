@@ -6,7 +6,7 @@ import 'package:collection/collection.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart' show kDebugMode, kIsWeb;
-import 'package:flutter/material.dart' hide Row;
+import 'package:flutter/widgets.dart' hide Row;
 import 'package:http/http.dart' as http;
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:path/path.dart' as p;
